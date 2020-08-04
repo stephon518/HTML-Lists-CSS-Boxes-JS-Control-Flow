@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+# HTML Lists, Control Flow with JS
 
-You can use the [editor on GitHub](https://github.com/stephon518/HTML-Lists-CSS-Boxes-JS-Control-Flow/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+**List**
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Numbered lists Bullet lists Definition lists
 
-### Markdown
+There are lots of occasions when we need to use lists. HTML provides us with three different types: ● Ordered lists are lists where each item in the list is numbered. For example, the list might be a set of steps for a recipe that must be performed in order, or a legal contract where each point needs to be identified by a section number. ● Unordered lists are lists that begin with a bullet point (rather than characters that indicate order). ● Definition lists are made up of a set of terms along with the definitions for each of those terms.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Lists can be nested inside one another.
 
-```markdown
-Syntax highlighted code block
+**Boxes**
 
-# Header 1
-## Header 2
-### Header 3
+CSS treats each HTML element as if it has its own box. X You can use CSS to control the dimensions of a box. X You can also control the borders, margin and padding for each box with CSS. X It is possible to hide elements using the display and visibility properties. X Block-level boxes can be made into inline boxes, and inline boxes made into block-level boxes. X Legibility can be improved by controlling the width of boxes containing text and the leading. X CSS3 has introduced the ability to create image borders and rounded borders.
 
-- Bulleted
-- List
+**Basic JavaScript Instructions**
 
-1. Numbered
-2. List
+A script is made up of a series of statements. Each statement is like a step in a recipe. Scripts contain very precise instructions. For example, you might specify that a value must be remembered before creating a calculation using that value. Variables are used to temporarily store pieces of information used in the script. Arrays are special types of variables that store more than one piece of related information. JavaScript distinguishes between numbers (0-9), strings (text), and Boolean values (true or false). Expressions evaluate into a single value. Expressions rely on operators to calculate a value.
 
-**Bold** and _Italic_ and `Code` text
+**Decisions and Loops**
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/stephon518/HTML-Lists-CSS-Boxes-JS-Control-Flow/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Conditional statements allow your code to make decisions about what to do next. Comparison operators (===, !==, ==, !=, <, >, <=, =>) are used to compare two operands. Logical operators allow you to combine more than one set of comparison operators. if ... else statements allow you to run one set of code if a condition is true, and another if it is false. switch statements allow you to compare a value against possible outcomes (and also provides a default option if none match). Data types can be coerced from one type to another. All values evaluate to either truthy or falsy. There are three types of loop: for, while, and do . . . while. Each repeats a set of statements.
